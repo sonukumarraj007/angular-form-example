@@ -1,0 +1,74 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "sonu",
+      "userEmail": "asd@gmail.com",
+      "phone": 1234467890,
+      "topic": "Angular",
+      "timePreference": "morning",
+      "subscribe": true
+    },
+    {
+      "id": 2,
+      "name": "sonu kumar",
+      "userEmail": "asd@gmail.com",
+      "phone": 12344,
+      "topic": "Angular",
+      "timePreference": "morning",
+      "subscribe": true
+    },
+    {
+      "name": "anshu",
+      "userEmail": "anshu@gmail.com",
+      "phone": 1234567890,
+      "topic": "React",
+      "timePreference": "morning",
+      "id": 3
+    },
+    {
+      "name": "sonu kumar",
+      "userEmail": "asd@gmail.com",
+      "phone": 9987654321,
+      "topic": "Angular",
+      "timePreference": "morning",
+      "id": 4
+    },
+    {
+      "name": "sonu",
+      "userEmail": "asd@gmail.com",
+      "topic": "Angular",
+      "timePreference": "morning",
+      "subscribe": true,
+      "phone": 1234567899,
+      "id": 5
+    },
+    {
+      "name": "sonu kumar",
+      "userEmail": "asd@gmail.com",
+      "phone": 1234567890,
+      "topic": "Angular",
+      "timePreference": "morning",
+      "subscribe": true,
+      "id": 6
+    },
+    {
+      "name": "sonu kumar",
+      "userEmail": "asd@gmail.com",
+      "phone": 1234567890,
+      "topic": "React",
+      "timePreference": "morning",
+      "subscribe": true,
+      "id": 7
+    },
+    {
+      "name": "adfadaadfafafaf adfadfadf fdf",
+      "userEmail": "ssss@gmm.com",
+      "phone": 9999999999,
+      "topic": "React",
+      "timePreference": "morning",
+      "subscribe": true,
+      "id": 8
+    }
+  ]
+}
