@@ -1,25 +1,25 @@
 {
   "user": [
     {
-      "id": 1,
-      "name": "sonu",
-      "userEmail": "asd@gmail.com",
+      "name": "Sonu",
+      "userEmail": "sonu@gmail.com",
       "phone": 1234467890,
       "topic": "Angular",
       "timePreference": "morning",
-      "subscribe": true
+      "subscribe": true,
+      "id": 1
     },
     {
       "id": 2,
-      "name": "sonu kumar",
-      "userEmail": "asd@gmail.com",
+      "name": "Kumar",
+      "userEmail": "kumar@gmail.com",
       "phone": 12344,
       "topic": "Angular",
       "timePreference": "morning",
       "subscribe": true
     },
     {
-      "name": "anshu",
+      "name": "Anshu",
       "userEmail": "anshu@gmail.com",
       "phone": 1234567890,
       "topic": "React",
@@ -27,16 +27,16 @@
       "id": 3
     },
     {
-      "name": "sonu kumar",
-      "userEmail": "asd@gmail.com",
+      "name": "Sonu Kumar",
+      "userEmail": "sonukumar@gmail.com",
       "phone": 9987654321,
       "topic": "Angular",
       "timePreference": "morning",
       "id": 4
     },
     {
-      "name": "sonu",
-      "userEmail": "asd@gmail.com",
+      "name": "Raj",
+      "userEmail": "raj@gmail.com",
       "topic": "Angular",
       "timePreference": "morning",
       "subscribe": true,
@@ -44,8 +44,8 @@
       "id": 5
     },
     {
-      "name": "sonu kumar",
-      "userEmail": "asd@gmail.com",
+      "name": "Kumar Sonu",
+      "userEmail": "kumarsonu@gmail.com",
       "phone": 1234567890,
       "topic": "Angular",
       "timePreference": "morning",
@@ -60,42 +60,6 @@
       "timePreference": "morning",
       "subscribe": true,
       "id": 7
-    },
-    {
-      "name": "adfadaadfafafaf adfadfadf fdf",
-      "userEmail": "ssss@gmm.com",
-      "phone": 9999999999,
-      "topic": "React",
-      "timePreference": "morning",
-      "subscribe": true,
-      "id": 8
-    },
-    {
-      "name": "55555",
-      "userEmail": "3444",
-      "phone": 1234,
-      "topic": "Angular",
-      "timePreference": "morning",
-      "subscribe": true,
-      "id": 9
-    },
-    {
-      "name": "udit",
-      "userEmail": "Kumaudit@gmail.com",
-      "phone": 8976782344,
-      "topic": "Angular",
-      "timePreference": "morning",
-      "subscribe": true,
-      "id": 10
-    },
-    {
-      "name": "sonu 7890",
-      "userEmail": "ssss@gmm.com",
-      "phone": 444,
-      "topic": "React",
-      "timePreference": "morning",
-      "subscribe": true,
-      "id": 11
     }
   ]
 }
