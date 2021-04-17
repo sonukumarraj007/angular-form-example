@@ -9,6 +9,8 @@ import { TemplateDrivenFormComponent } from './component/template-driven-form/te
 import { TemplateDrivenFormPatchValueComponent } from './component/template-driven-form-patch-value/template-driven-form-patch-value.component';
 import { ReactiveFormComponent } from './component/reactive-form/reactive-form.component';
 import { ReactiveFormPatchValueComponent } from './component/reactive-form-patch-value/reactive-form-patch-value.component';
+import { ReactiveFormArrayComponent } from './component/reactive-form-array/reactive-form-array.component';
+import { ReactiveFormArrayPatchValueComponent } from './component/reactive-form-array-patch-value/reactive-form-array-patch-value.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ReactiveFormPatchValueComponent } from './component/reactive-form-patch
     TemplateDrivenFormComponent,
     TemplateDrivenFormPatchValueComponent,
     ReactiveFormComponent,
-    ReactiveFormPatchValueComponent
+    ReactiveFormPatchValueComponent,
+    ReactiveFormArrayComponent,
+    ReactiveFormArrayPatchValueComponent
   ],
   imports: [
     BrowserModule,

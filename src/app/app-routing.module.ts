@@ -1,3 +1,5 @@
+import { ReactiveFormArrayPatchValueComponent } from './component/reactive-form-array-patch-value/reactive-form-array-patch-value.component';
+import { ReactiveFormArrayComponent } from './component/reactive-form-array/reactive-form-array.component';
 import { ReactiveFormPatchValueComponent } from './component/reactive-form-patch-value/reactive-form-patch-value.component';
 import { ReactiveFormComponent } from './component/reactive-form/reactive-form.component';
 import { TemplateDrivenFormPatchValueComponent } from './component/template-driven-form-patch-value/template-driven-form-patch-value.component';
@@ -11,6 +13,8 @@ const routes: Routes = [
   { path: 'template-driven-form-patch-value', component: TemplateDrivenFormPatchValueComponent },
   { path: 'reactive-form', component: ReactiveFormComponent },
   { path: 'reactive-form-patch-value', component: ReactiveFormPatchValueComponent },
+  { path: 'reactive-form-array', component: ReactiveFormArrayComponent },
+  { path: 'reactive-form-array-patch-value', component: ReactiveFormArrayPatchValueComponent }
 ];
 
 @NgModule({
