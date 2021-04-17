@@ -1,0 +1,95 @@
+<hr>
+<br>
+<div class="container">
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Form Value</h4>
+                {{ userForm.value | json }}
+            </div>
+            <div class="col-md-6 card" style="padding: 25px;">
+
+                <div class="row">
+                    <h4 style="margin-left: 15px;">Reactive Form With Validation</h4><br>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" formControlName="name" name="name" required />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="userEmail" formControlName="userEmail" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="number" class="form-control" name="phone" formControlName="phone" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p>Select Topic</p>
+                            <select class="custom-select" name="topic" formControlName="topic" required>
+                                <option value="" disabled>Choose your topic</option>
+                                <option *ngFor="let item of topics" [ngValue]="item">{{ item }}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <label>Time Preference</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="timePreference" value="morning"
+                                formControlName="timePreference" />
+                            <label class="form-check-label">Morning (9AM - 12PM)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="timePreference" value="evening"
+                                formControlName="timePreference" />
+                            <label class="form-check-label">Evening (5PM - 8PM)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" name="subscribe"
+                                formControlName="subscribe" />
+                            <label class="form-check-label">
+                                Send me promotional offers
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary" type="submit"
+                            [disabled]="userForm.invalid || userForm.pristine">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+<br>
