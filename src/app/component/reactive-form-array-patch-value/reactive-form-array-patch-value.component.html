@@ -1,1 +1,18 @@
-<p>reactive-form-array-patch-value works!</p>
+<br>
+<br>
+
+<div class="container">
+    <div [formGroup]="binsForm">
+        <div formArrayName="bins">
+            <div *ngFor="let bin of bins; let i = index">
+                <div [formGroupName]="i">
+                    <input type="text" formControlName="id" />
+                    <input type="text" formControlName="system" />
+                    <input type="text" formControlName="shape" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <button (click)="addBin()">Add Bin</button>
+    <button (click)="save()">Save</button>
+</div>
